@@ -34,11 +34,11 @@ function OnLoad()
 	
 	-- Initial logic to avoid RYNO
 	boltBank = 0
-	barlowBank = false
+	rynoBankOn = false
 	if avoidRyno and game.planet == rynoPlanet and currBolts>rynoPrice then
 		boltBank = currBolts - (rynoPrice-1)
 		ratchet.bolts = rynoPrice-1
-		barlowBank = true
+		rynoBankOn = true
 		print("Avoiding RYNO: Taken "..boltBank.." bolts")
 	end
 	
@@ -70,16 +70,16 @@ function OnTick(ticks)
 	if avoidRyno and game.planet == rynoPlanet and currBolts>rynoPrice then
 		boltBank = boltBank + currBolts - (rynoPrice-1)
 		ratchet.bolts = rynoPrice-1
-		barlowBank = true
+		rynoBankOn = true
 		print("Avoiding RYNO: Taken "..boltBank.." bolts")
 	end
 	
 	-- Out of Rilgar: give money back
-	if barlowBank and game.planet ~= rynoPlanet then
+	if rynoBankOn and game.planet ~= rynoPlanet then
 		ratchet.bolts = currBolts + boltBank
 		print("Out of Rilgar! Giving back "..boltBank.." bolts")
 		boltBank = 0
-		barlowBank = false
+		rynoBankOn = false
 	end
 	
 	-- Reached Veldin 2: stop avoiding RYNO
