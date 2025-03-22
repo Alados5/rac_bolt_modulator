@@ -19,7 +19,7 @@ Use the mod to make all different kinds of challenge runs, like:
 
 ### Option 1: copying the files
 
-1. Download the zip file(s) on the Releases section
+1. Download the zip file(s) on the [Releases](https://github.com/Alados5/rac_bolt_modulator/releases) section
 2. Open the `mods` folder in the RaCMAN folder
 3. Unzip the downloaded zip file(s)
 4. Place each mod folder inside the corresponding game's folder
@@ -29,7 +29,7 @@ Use the mod to make all different kinds of challenge runs, like:
 
 ### Option 2: in RaCMAN
 
-1. Download the zip file(s) on the Releases section
+1. Download the zip file(s) on the [Releases](https://github.com/Alados5/rac_bolt_modulator/releases) section
 2. Open the desired game on PS3
 3. Run RaCMAN
 4. Connect RaCMAN to console or emulator
@@ -45,7 +45,7 @@ Use the mod to make all different kinds of challenge runs, like:
    - `boltGainFactor`: The multiplier for bolts earned. Vanilla is 1. It can be over 1 to earn more bolts than usual, between 0 and 1 to earn a fraction of what you would receive, or negative to subtract bolts when you collect them.
    - `boltLossFactor`: The multiplier for bolts spent. Vanilla is 1. It can be over 1 to pay more bolts than usual, between 1 and 0 to pay a fraction of what you would spend, or negative to get bolts when you spend them.
    - `initialBolts`: The amount you receive when the mod is loaded. Vanilla is 0. It can be positive, useful when gain factor < 1 or loss factor > 1 (especially when gain < 0 and loss > 0, or you will have no bolts ever!), or negative, to give you a handicap at the start.
-   - `avoidRyno` (only for R&C1-2): A boolean (`true`/`false`) to cap your bolts at 149,999 on Rilgar or 999,999 on Barlow, to ensure you cannot buy the RYNO early. The bolts will be added back when leaving the planet, and the effect will be cleared when reaching the final level.
+   - `avoidRyno` (only for R&C1-2): A boolean (`true`/`false`) to cap your bolts at 149,999 on Rilgar or 999,999 on Barlow, to ensure you cannot buy the RYNO early. The bolts will be saved and added back when leaving the planet, and the cap will be cleared when reaching the final level.
    - `unloadRollback`: 	A boolean (`true`/`false`) to revert all mod effects when it is unloaded, taking back the initial amount and giving the result of earning/spending bolts in vanilla.
 
 ## Running the mod
