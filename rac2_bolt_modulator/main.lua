@@ -9,6 +9,8 @@ require 'config'
 
 function OnLoad()
 	rynoPrice = 1000000
+	rynoPlanet = 4
+	finalPlanet = 20
 	
 	-- Add initial amount of bolts
 	ratchet.bolts = ratchet.bolts + math.floor(initialBolts)
@@ -33,7 +35,7 @@ function OnLoad()
 	-- Initial logic to avoid RYNO
 	boltBank = 0
 	barlowBank = false
-	if avoidRyno and game.planet == 4 and currBolts>rynoPrice then
+	if avoidRyno and game.planet == rynoPlanet and currBolts>rynoPrice then
 		boltBank = currBolts - (rynoPrice-1)
 		ratchet.bolts = rynoPrice-1
 		barlowBank = true
@@ -65,7 +67,7 @@ function OnTick(ticks)
 	end
 	
 	-- Early RYNO avoidance: set bolts to 999999 if over 1M in Barlow
-	if avoidRyno and game.planet == 4 and currBolts>rynoPrice then
+	if avoidRyno and game.planet == rynoPlanet and currBolts>rynoPrice then
 		boltBank = boltBank + currBolts - (rynoPrice-1)
 		ratchet.bolts = rynoPrice-1
 		barlowBank = true
@@ -73,7 +75,7 @@ function OnTick(ticks)
 	end
 	
 	-- Out of Barlow: give money back
-	if barlowBank and game.planet ~= 4 then
+	if barlowBank and game.planet ~= rynoPlanet then
 		ratchet.bolts = currBolts + boltBank
 		print("Out of Barlow! Giving back "..boltBank.." bolts")
 		boltBank = 0
@@ -81,7 +83,7 @@ function OnTick(ticks)
 	end
 	
 	-- Reached Yeedil: stop avoiding RYNO II
-	if game.planet == 20 then
+	if game.planet == finalPlanet then
 		avoidRyno = false
 	end
 	

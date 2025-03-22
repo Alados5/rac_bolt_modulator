@@ -33,7 +33,7 @@ boltLossFactor  =  1
 
 --[[
 initialBolts
-	The amount you receive when the mod is loaded. Vanilla is 0
+	The amount you receive when the mod is loaded. Vanilla is 0.
 	It can be positive, useful when gain factor < 1 or loss factor > 1
 	(especially when gain < 0 and loss > 0, or you will have no bolts ever!),
 	or negative, to give you a handicap at the start!
