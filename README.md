@@ -1,6 +1,6 @@
 # R&C Bolt Modulator mod
 
-Ratchet & Clank mod for RACMAN: Modifies the amount of bolts earned and spent by different factors, positive or negative. You can optionally receive a starting amount too.
+Ratchet & Clank mod for RaCMAN: Modifies the amount of bolts earned and spent by different factors, positive or negative. You can optionally receive a starting amount too.
 
 ## Pre-requisites
 
@@ -8,7 +8,7 @@ Ratchet & Clank mod for RACMAN: Modifies the amount of bolts earned and spent by
   - There are guides available online
   - The RPCS3 Emulator is not tested
 - [RaCMAN](https://github.com/MichaelRelaxen/racman) installed
-- A Digital PAL PS3 version of one of the R&C games
+- A digital PAL PS3 version of one of the compatible R&C games
 
 ## Installing the mod
 
@@ -29,7 +29,7 @@ Ratchet & Clank mod for RACMAN: Modifies the amount of bolts earned and spent by
 4. Connect RaCMAN to console or emulator
 5. Open `Menu` -> `Patch loader...`
 6. Click `Add ZIP...` and browse the downloaded zip
-7. Repeat from step 2 for other games
+7. Repeat from step 2 for any other games
 
 ## Configuring mod options
 
@@ -49,4 +49,6 @@ Ratchet & Clank mod for RACMAN: Modifies the amount of bolts earned and spent by
 3. Run RaCMAN
 4. Connect RaCMAN to console or emulator
 5. Open `Menu` -> `Patch loader...`
-6. Select the checkbox of the mod on the list
+6. Start a game (mod will not start correctly in the main menu)
+7. Select the checkbox of the mod on the list
+8. Enjoy!
