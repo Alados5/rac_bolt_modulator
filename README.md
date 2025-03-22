@@ -7,6 +7,10 @@ Use the mod to make all different kinds of challenge runs, like:
 - Taxes mode: a cut of your earnings gets taken away, or things cost a bit more than the price label!
 - Money bleed: start with a set amount and every bolt you get actually subtracts from the total!
 
+**Disclaimer:** This mod doesn't change actual in-game prices, it only affects bolt changes and applies the multipliers after the fact (the vanilla difference). This means items will still have their original costs even if you set a loss multiplier of 2x or 0.1x, and you will end up with negative bolts if you didn't have enough for the modulated amount, or will be paid back after the purchase, but you will get the item if you have the vanilla amount and purchase it. In these cases, the better option is usually adjusting the gain multiplier, so you get 0.5x or 10x the vanilla amount of bolts.
+- Example 1: Plasma Coil and mod with 2x costs. You will be able to buy it and unlock it for 150k bolts, but if you had 200k in-game, you will be left with -100k bolts in your counter. A better option could be configuring 0.5x earnings, so the Plasma Coil costs 150k but you had to grind for what would've been 300k in vanilla.
+- Example 2: RYNO II and 0.1x costs. You will still need 1M bolts to buy it in the first place, but you will immediately get 900k back. The better option would be configuring 10x earnings, so what would be 100k in vanilla already gets you to 1M bolts.
+
 ## Pre-requisites
 
 - A Homebrew Enabled (HEN) PS3
