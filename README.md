@@ -24,7 +24,7 @@ Use the mod to make all different kinds of challenge runs, like:
 
 ### Option 1: copying the files
 
-1. Download the zip file(s) on the [Releases](https://github.com/Alados5/rac_bolt_modulator/releases) section
+1. Download the zip file(s) on the [Releases](https://github.com/Alados5/rac_usa_healthcare/releases) section
 2. Open the `mods` folder in the RaCMAN folder
 3. Unzip the downloaded zip file(s)
 4. Place each mod folder inside the corresponding game's folder
