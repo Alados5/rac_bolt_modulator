@@ -35,7 +35,7 @@ Use the mod to make all different kinds of challenge runs, like:
 
 ### Option 2: in RaCMAN
 
-1. Download the zip file(s) on the [Releases](https://github.com/Alados5/rac_bolt_modulator/releases) section
+1. Download the zip file(s) on the [Releases](https://github.com/Alados5/rac_usa_healthcare/releases) section
 2. Open the desired game on PS3
 3. Run RaCMAN
 4. Connect RaCMAN to console or emulator
