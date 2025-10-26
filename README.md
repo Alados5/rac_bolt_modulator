@@ -15,7 +15,8 @@ Use the mod to make all different kinds of challenge runs, like:
 
 - A Homebrew Enabled (HEN) PS3
   - There are guides available online
-  - The RPCS3 Emulator is not tested
+  - Other CFW or Jailbreaks might work but are not tested
+  - The RPCS3 Emulator should also work
 - [RaCMAN](https://github.com/MichaelRelaxen/racman) installed
 - A digital PAL PS3 version of the compatible R&C games
 
@@ -30,6 +31,7 @@ Use the mod to make all different kinds of challenge runs, like:
    - R&C1 is `NPEA00385`
    - R&C2 is `NPEA00386`
    - R&C3 is `NPEA00387`
+   - RDL is `NPEA00423`
 
 ### Option 2: in RaCMAN
 

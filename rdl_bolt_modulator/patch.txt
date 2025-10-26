@@ -1,0 +1,7 @@
+#- name: Bolt Modulator
+#- author: Alados5
+#- href: https://github.com/Alados5/rac_bolt_modulator
+#- version: 1.0
+#- description: Multiply gained and lost bolts by different factors, positive or negative! Optionally receive a starting amount.
+
+automation: main.lua
